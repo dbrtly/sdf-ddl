@@ -1,0 +1,10 @@
+function:
+  name: udf_add
+  # description: hello user-defined function
+  function-kind: scalar
+  volatility: pure
+  parameters:
+    - datatype: int
+    - datatype: int
+  returns:
+    datatype: int
